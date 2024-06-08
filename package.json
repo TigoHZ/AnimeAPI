@@ -4,8 +4,6 @@
   "description": "Description of my project",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "build:all": "npm run build"
   },
