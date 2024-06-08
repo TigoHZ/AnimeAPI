@@ -4,7 +4,8 @@
   "description": "Simple anime app",
   "main": "main.js",
   "scripts": {
-    "start": "python -m http.server 8000"
+    "start": "python -m http.server 8000",
+    "build": "echo 'No build step required'"
   },
   "keywords": [],
   "author": "Tigo de Rijk",
