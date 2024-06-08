@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 20 Anime</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="bg-blue-500 text-white text-center py-4 text-xl">
+    Anime Search
+</header>
+<main id="app" class="max-w-full md:max-w-4xl mx-auto p-4 bg-white">
+    <section id="search-sort" class="flex flex-col md:flex-row justify-between mb-5">
+        <input type="search" id="search-input" class="flex-1 p-2 text-base mb-2 md:mb-0" placeholder="Type an anime">
+        <div class="flex">
+            <button id="search-button" class="p-2 text-base bg-blue-500 text-white rounded ml-0 md:ml-2 hover:bg-blue-700">Search</button>
+            <button id="home-button" class="p-2 text-base bg-blue-500 text-white rounded ml-2 hover:bg-blue-700">Home</button>
+        </div>
+    </section>
+    <section id="top-anime">
+        <h1 class="text-2xl mb-4">Top 20 Anime by Score</h1>
+        <ul id="anime-list" class="list-none p-0">
+            <!-- Anime items will be injected here -->
+        </ul>
+    </section>
+    <section id="anime-info"></section>
+</main>
+<script src="main.js" type="module"></script>
+</body>
+</html>
