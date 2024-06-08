@@ -4,7 +4,7 @@
   "description": "Description of my project",
   "main": "main.js",
   "scripts": {
-    "build": "tsc",
+    "build": "index.html",
     "build:all": "npm run build"
   },
   "keywords": [],
