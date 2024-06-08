@@ -1,12 +1,14 @@
 {
   "name": "animeapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Description of my project",
   "main": "main.js",
   "scripts": {
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tigo de Rijk",
   "license": "ISC"
 }
+
