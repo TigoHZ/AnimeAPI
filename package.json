@@ -1,13 +1,12 @@
 {
-  "name": "animeapi",
+  "name": "anime-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple anime app",
   "main": "main.js",
   "scripts": {
-    "build": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "python -m http.server 8000"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tigo de Rijk",
   "license": "ISC"
 }
